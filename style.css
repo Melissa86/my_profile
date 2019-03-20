@@ -1,0 +1,123 @@
+
+body {
+	font-family:Source Sans Pro;
+	color: #00537F; 
+	text-align: center;
+	background-color: rgb(240,240,240);
+}
+h2 {
+	color : #FF009C;
+}
+#avatar {
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+}
+.btn-pink{
+	background-color: #FF009C;
+	text-align: center;
+	text-decoration: none;
+	text-color: white;
+	border-radius: 4px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 900;
+	display: inline-block;
+	transition: background-color ease 0,5s;
+}
+.btn-pink:hover {
+	background-color: #1D3653;
+}
+
+.container {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.visible-large-screen {
+	display: block;
+}
+
+.visible-mobile {
+	display: none;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 620px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 320px;
+	}
+}
+
+.card-white {
+	border-radius: 4px ; 
+	padding:10px 20px 10px 20px;
+	margin-top: 20px;
+	box-shadow: 0 5px 5px rgb(200,200,200);
+}
+a{
+	text-decoration: none;
+}
+
+#logo-stik{
+	width:20%;
+}
+
+.img-social{	
+width:50px;
+height:50px;
+display: inline-block;
+text-decoration: none;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.fa-github-square {
+	color: purple;
+	font-size:57px;
+
+}
+
+.fa-facebook-square {
+	color: purple;
+	font-size: 57px;
+}
+
+.fa-instagram {
+	color: purple;
+	font-size: 57px;
+}
+
+.fa-linkedin {
+	color: purple;
+	font-size: 57px;	
+}
+
+.icon-social {
+	color: grey;
+	font-size: 62px;
+	opacity: 0.8;
+	transition: opacity ease 0.25s;
+}
+
+.icon-social: hover {
+	font-size: 66px;
+	opacity: 0.5;
+}
