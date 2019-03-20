@@ -28,6 +28,13 @@ h2 {
 	background-color: #1D3653;
 }
 
+#croquis-crea {
+	width:400px;
+	height:200px;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
 .container {
 	width: 600px;
 	margin: 20px auto;
@@ -120,4 +127,10 @@ text-decoration: none;
 .icon-social: hover {
 	font-size: 66px;
 	opacity: 0.5;
+}
+
+.icon-skill {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
